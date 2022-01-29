@@ -11,7 +11,7 @@ milestones:
 * generate archives for 110m, 50m, 10m
 * seed p2p archives to ipfs and hyperdrive
 
-amount:
+amount: €4000
 
 [natural earth data]: https://www.naturalearthdata.com/
 [georender format]: https://github.com/peermaps/docs/blob/master/georender.md
@@ -31,7 +31,7 @@ milestones:
 * generate archive for filtered data on vps
 * seed p2p archive to ipfs and hyperdrive
 
-amount:
+amount: €4000
 
 2. peer query filtering prototype
 
@@ -47,7 +47,7 @@ milestones:
 * peermaps-specific querying p2p layer
 * integrate queries into the web ui
 
-amount:
+amount: €4000
 
 3. networking ui
 
@@ -61,7 +61,7 @@ milestones:
 * display and control data usage
 * pause/resume networking
 
-amount:
+amount: €2000
 
 4. data ui
 
@@ -75,7 +75,7 @@ milestones:
 * save/delete per tree file with automated helpers to save space
 * set areas that should always maintain offline data
 
-amounts:
+amount: €2000
 
 5. spatial database optimization
 
@@ -89,7 +89,7 @@ milestones:
 * move manual process of data transfer measurement into benchmark suite
 * verify that optimization results in similar amount of data transfer
 
-amount:
+amount: €2000
 
 6. p2p web swarm endpoints
 
@@ -101,7 +101,7 @@ milestones:
 * hook up hyperswarm-web connection to hyperdrive storage wrapper
 * data source type for ipfs-js 
 
-amount:
+amount: €3000
 
 7. rendering engine improvements
 
@@ -115,7 +115,7 @@ milestones:
 * detect sides of coastlines and draw solids for land and sea
 * sprites and patterns
 
-amount:
+amount: €10000
 
 8. improve default stylesheet
 
@@ -129,7 +129,7 @@ milestones:
 * fine-tuning color choices
 * set appropriate z-index so that important features do not get hidden
 
-amount:
+amount: €1000
 
 9. fix label rendering
 
@@ -144,7 +144,7 @@ milestones:
 * labels constrained to sit inside areas
 * label colors, sizes, and constraints integrated into stylehseet
 
-amount:
+amount: €3000
 
 10. standalone web app
 
@@ -158,8 +158,9 @@ milestones:
 * on-screen search/filter by label, feature type
 * import/export settings data as json
 * set custom stylesheet png
+* deploy on peermaps.org
 
-amount:
+amount: €5000
 
 11. iframe embedded web map
 
@@ -170,8 +171,9 @@ milestones:
 * generate html iframe snippet for embedded map view in the web ui
 * postMessage api to dynamically drive the map
 * set configuration options (stylesheet etc) as url hash parameters
+* deploy on peermaps.org
 
-amount:
+amount: €5000
 
 12. audio maps
 
@@ -185,7 +187,7 @@ milestones:
 (go north to intersection, go west 50m, etc)
 * list nearby labels with their distance and direction
 
-amount:
+amount: €2000
 
 13. cities 500 db
 
@@ -197,7 +199,7 @@ milestones:
 * build and seed city archive to be loaded in a sparse fashion
 * web ui to jump to a city based on name, presenting multiple options
 
-amount: 
+amount: €2000
 
 [geonames]: https://download.geonames.org/export/dump/
 
