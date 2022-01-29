@@ -1,3 +1,16 @@
+Peermaps is an end-to-end stack for displaying, searching, and sharing
+geographic data cooperatively over peer to peer networks. The scope of peermaps
+is similar to commercial offerings such as google maps but with additional tools
+for offline and online p2p collaboration.
+
+Instead of fetching geospatial data from a centralized tile service, you fetch
+data from peers across the network by querying a geospatial database written in
+rust (eyros) that runs locally on your device and compiles to wasm for use in
+web pages. The database can query very large datasets such as all of
+OpenStreetMap in a sparse way, downloading only what it needs to display
+features inside a given bounding box. And you can work with whatever data you've
+previously downloaded onto a device offline, including search and directions.
+
 0. import natural earth data into peermaps
 
 Process [natural earth data][] into [georender format][] and store in [eyros][]
