@@ -11,7 +11,7 @@ OpenStreetMap in a sparse way, downloading only what it needs to display
 features inside a given bounding box. And you can work with whatever data you've
 previously downloaded onto a device offline, including search and directions.
 
-0. import natural earth data into peermaps
+# 0. import natural earth data into peermaps
 
 Process [natural earth data][] into [georender format][] and store in [eyros][]
 for the 3 levels of detail provided: 110m, 50m, and 10m. Include enough
@@ -32,7 +32,7 @@ amount: €4000
 [georender format]: https://github.com/peermaps/docs/blob/master/georender.md
 [eyros]: https://github.com/peermaps/eyros
 
-1. archive of reduced osm geometry
+# 1. archive of reduced osm geometry
 
 There is a gap between the 10m natural earth data and full planet OSM data that
 could be addressed with a preset filter to simplify geometry and only show
@@ -48,7 +48,7 @@ milestones:
 
 amount: €4000
 
-2. peer query filtering prototype
+# 2. peer query filtering prototype
 
 Request that peers omit certain elements from a bounding box request on an
 eyros database of georender data to save bandwidth. This is an
@@ -64,7 +64,7 @@ milestones:
 
 amount: €4000
 
-3. networking ui
+# 3. networking ui
 
 In the web interface, there are many ways to send and receive data. This
 networking ui will provide users with options to control networking resources.
@@ -78,7 +78,7 @@ milestones:
 
 amount: €2000
 
-4. data ui
+# 4. data ui
 
 In the web interface, provide controls for managing storage on the device with
 IndexedDB.
@@ -92,7 +92,7 @@ milestones:
 
 amount: €2000
 
-5. spatial database optimization
+# 5. spatial database optimization
 
 The ingest pipeline has a custom optimization that occurs at the very end of
 processing to greatly reduce the amount of data transfer by clients. This
@@ -106,7 +106,7 @@ milestones:
 
 amount: €2000
 
-6. p2p web swarm endpoints
+# 6. p2p web swarm endpoints
 
 Connect to other ipfs and hyperdrive peers over webrtc in the web client.
 
@@ -118,7 +118,7 @@ milestones:
 
 amount: €3000
 
-7. rendering engine improvements
+# 7. rendering engine improvements
 
 While a majority of the rendering engine is complete, a few major items remain
 for parity with other web map engines.
@@ -132,7 +132,7 @@ milestones:
 
 amount: €10000
 
-8. improve default stylesheet
+# 8. improve default stylesheet
 
 Peermaps uses a default stylesheet which was developed primarily to debug the
 rendering engine. New default styles are needed for better-looking maps.
@@ -146,7 +146,7 @@ milestones:
 
 amount: €1000
 
-9. fix label rendering
+# 9. fix label rendering
 
 Labels were quickly implemented and are presently only displayed for point
 features. Add additional refinements to label placement and rendering.
@@ -161,7 +161,7 @@ milestones:
 
 amount: €3000
 
-10. standalone web app
+# 10. standalone web app
 
 Launch the existing web ui on peermaps.org as a web application.
 
@@ -177,7 +177,7 @@ milestones:
 
 amount: €5000
 
-11. iframe embedded web map
+# 11. iframe embedded web map
 
 Embed a map on another domain with an iframe.
 
@@ -190,7 +190,7 @@ milestones:
 
 amount: €5000
 
-12. audio maps
+# 12. audio maps
 
 Explore the map using only audio with the web speech synthesis API.
 Use text or voice recognition API to input commands.
@@ -204,7 +204,7 @@ milestones:
 
 amount: €2000
 
-13. cities 500 db
+# 13. cities 500 db
 
 Jump to the location of a regional or city-scale feature by sparsely loading p2p
 data processed from [geonames][].
