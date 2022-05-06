@@ -20,9 +20,11 @@ to that spot from a fully zoomed-out world map view down to the full base map.
 
 milestones:
 
-* fixes to polygon clipping pipeline
-* generate archives for 110m, 50m, 10m
-* seed p2p archives to ipfs and hyperdrive
+-[x]: [fixes](https://github.com/peermaps/georender-clip/commits/main)
+to [polygon clipping pipeline](https://github.com/peermaps/natural-earth-ingest/blob/main/build.sh)
+-[x]: [generate archives for 110m, 50m, 10m](https://github.com/peermaps/data#natural-earth-vector-eyros-georender)
+-[x]: seed p2p archives to [ipfs](https://ipfs.io/ipfs/QmY1Ggv8EZT2973nNwjMB4rarUxiCgkAEADoiczWekpayq)
+and [hyperdrive](hyper://14812ae6cafa38b8a62dc85b68e0541cbd7ce8801d3adc4cb0ab8aec698a4879)
 
 amount: €4000
 
