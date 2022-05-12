@@ -125,10 +125,10 @@ for parity with other web map engines.
 
 milestones:
 
-* use instanced geometry to render lines with attributes for patterns (dashes)
-* use instanced geometry for point sprites instead of GL\_POINTS
-* detect sides of coastlines and draw solids for land and sea
-* sprites and patterns
+- [x] [use instanced geometry to render lines with attributes for patterns (dashes)](https://github.com/peermaps/mixmap-georender/commit/bd99a721bade3340892c6a517fbf6f19c26f910c) (solid/dashed effect achieved with slightly different technique)
+- [x] [use instanced geometry for point sprites instead of GL\_POINTS](https://github.com/peermaps/mixmap-georender/compare/91148bf46fecfd01141c7f0dbe2f80a070bf1e60..0fd7eac903504ffde37c69d351975a9ecee913a1)
+- [ ] detect sides of coastlines and draw solids for land and sea
+- [ ] sprites and patterns
 
 amount: €10000
 
@@ -153,11 +153,11 @@ features. Add additional refinements to label placement and rendering.
 
 milestones:
 
-* fix canvas text rendering (or use signed distance or vector labels)
-* incorporate label priority into the stylesheet format
-* labels constrained to follow line features
-* labels constrained to sit inside areas
-* label colors, sizes, and constraints integrated into stylehseet
+- [ ] fix canvas text rendering (or use signed distance or vector labels)
+- [ ] incorporate label priority into the stylesheet format
+- [x] [labels constrained to follow line features](https://github.com/peermaps/mixmap-georender/commit/f7e839ff041e01fcc71a9b692adc1195ea2ffad8)
+- [ ] labels constrained to sit inside areas
+- [ ] label colors, sizes, and constraints integrated into stylehseet
 
 amount: €3000
 
