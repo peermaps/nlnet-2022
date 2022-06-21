@@ -154,10 +154,11 @@ features. Add additional refinements to label placement and rendering.
 milestones:
 
 - [ ] fix canvas text rendering (or use signed distance or vector labels)
-- [ ] incorporate label priority into the stylesheet format
+- [x] [incorporate label priority into the stylesheet format](https://github.com/peermaps/georender-style2png/compare/653fa1f319745ce8534d0d95807b7d3670cb4959..366d3220082fe1d008c93ddabe24cbab5c7b558b)
 - [x] [labels constrained to follow line features](https://github.com/peermaps/mixmap-georender/commit/f7e839ff041e01fcc71a9b692adc1195ea2ffad8)
 - [x] [labels constrained to sit inside areas](https://github.com/peermaps/mixmap-georender/pull/27/commits/3675d1dfb4ed459cd2ecbbac96b835f645573628)
-- [ ] label colors, sizes, and constraints integrated into stylehseet
+- [x] [label colors, sizes, and constraints integrated into
+  stylesheet](https://github.com/peermaps/georender-style2png/compare/653fa1f319745ce8534d0d95807b7d3670cb4959..366d3220082fe1d008c93ddabe24cbab5c7b558b)
 
 amount: €3000
 
