@@ -212,8 +212,8 @@ data processed from [geonames][].
 
 milestones:
 
-* build and seed city archive to be loaded in a sparse fashion
-* web ui to jump to a city based on name, presenting multiple options
+- [x] [build](https://github.com/peermaps/sparse-geonames-ingest) and [seed city archive](https://github.com/peermaps/data#sparse-geonames-cities500) to be [loaded in a sparse fashion](https://github.com/peermaps/sparse-geonames-search)
+- [x] [web ui to jump to a city based on name, presenting multiple options](https://github.com/peermaps/peermaps-web/pull/38)
 
 amount: €2000
 
