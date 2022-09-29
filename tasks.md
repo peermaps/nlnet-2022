@@ -128,7 +128,11 @@ milestones:
 - [x] [use instanced geometry to render lines with attributes for patterns (dashes)](https://github.com/peermaps/mixmap-georender/commit/bd99a721bade3340892c6a517fbf6f19c26f910c) (solid/dashed effect achieved with slightly different technique)
 - [x] [use instanced geometry for point sprites instead of GL\_POINTS](https://github.com/peermaps/mixmap-georender/compare/91148bf46fecfd01141c7f0dbe2f80a070bf1e60..0fd7eac903504ffde37c69d351975a9ecee913a1)
 - [ ] detect sides of coastlines and draw solids for land and sea
-- [x] sprites and patterns: [changes in mixmap-georender](https://github.com/peermaps/mixmap-georender/compare/master...sprite-debug); [changes in georender-style2png](https://github.com/peermaps/georender-style2png/compare/master...sprite-debug) ; [changes in glsl-georender-style-texture](https://github.com/peermaps/glsl-georender-style-texture/compare/master...sprite-debug) ; [screenshots](https://github.com/peermaps/mixmap-georender/issues/13#issuecomment-1261670143)
+- [x] sprites and patterns:
+  * [changes in mixmap-georender](https://github.com/peermaps/mixmap-georender/compare/master...sprite-debug)
+  * [changes in georender-style2png](https://github.com/peermaps/georender-style2png/compare/master...sprite-debug)
+  * [changes in glsl-georender-style-texture](https://github.com/peermaps/glsl-georender-style-texture/compare/master...sprite-debug)
+  * [screenshots](https://github.com/peermaps/mixmap-georender/issues/13#issuecomment-1261670143)
 
 amount: €10000
 
